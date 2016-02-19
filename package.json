@@ -10,7 +10,8 @@
     "build": "browserify -t [babelify --presets [es2015 react] ] app.js > build.js",
     "watch": "watchify -t [babelify --presets [es2015 react] ] app.js -o build.js -v",
     "release": "node minify.js",
-    "dev": "watchify -t [babelify --presets [es2015 react] ] app.js -o build.js -v & beefy index.html"
+    "dev": "watchify -t [babelify --presets [es2015 react] ] app.js -o build.js -v & beefy index.html",
+    "server": "beefy index.html"
   },
   "devDependencies": {
     "beefy": "*",
