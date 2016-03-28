@@ -68,6 +68,7 @@ h5 a:hover {
 #header h1 a {
   font: 700 60px/60px 'Open Sans', sans-serif;
   color: #ffffff;
+  padding-top: 4px;
   margin-left: 20px;
 }
 #header h1 span {
