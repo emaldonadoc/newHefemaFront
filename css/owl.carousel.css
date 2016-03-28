@@ -1,4 +1,4 @@
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.3
  */
@@ -28,6 +28,7 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	margin-left: -14px;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
@@ -36,7 +37,7 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 }
@@ -57,7 +58,7 @@
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -114,7 +115,7 @@
 	font-size: 72px;
 }
 .owl-carousel .owl-prev:hover:before,
-.owl-carousel .owl-next:hover:before { 
+.owl-carousel .owl-next:hover:before {
 	color: #d94d3a;
 }
 @media only screen and (max-width: 980px) {
