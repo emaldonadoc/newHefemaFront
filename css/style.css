@@ -413,6 +413,11 @@ p {
   }
 }
 @media only screen and (max-width: 479px) {
+  iframe{
+    width: 100%;
+    height: 250px;
+
+  }
   h2 {
     font: 300 42px/42px 'Open Sans', sans-serif;
     text-align: center;
