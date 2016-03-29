@@ -136,5 +136,13 @@
 	.owl-carousel .owl-controls {
 		top: 52px;
 	}
+	.owl-carousel .owl-next {
+		margin-top: 28px !important;
+		margin-right: -12px !important;
+	}
+	.owl-carousel .owl-prev {
+		margin-top: 28px !important;
+		margin-left: -12px !important;
+	}
 
 }

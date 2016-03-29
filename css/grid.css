@@ -481,4 +481,7 @@ table {
   .row {
     margin-left: 0;
   }
+  .row-product{
+    height: 67px !important;
+  }
 }
