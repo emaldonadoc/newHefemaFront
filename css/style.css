@@ -73,7 +73,7 @@ h5 a:hover {
   color: #ffffff;
 }
 #header h1 a {
-  font: 700 60px/60px 'Open Sans', sans-serif;
+  font: 700 28px/51px "Open Sans",sans-serif;
   color: #ffffff;
   padding-top: 4px;
   margin-left: 20px;
@@ -87,9 +87,9 @@ h5 a:hover {
 }
 
 .fixName{
-  float: inherit !important;
+  float: none !important;
   margin-left: 24px !important;
-  margin-top: -14px !important;
+  margin-top: 0px !important;
 }
 
 #header nav {
