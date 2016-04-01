@@ -54,7 +54,7 @@ h5 a:hover {
 										HEADER styles
 =========================================================*/
 #header {
-  padding: 20px 0;
+  padding: 5px 0px !important;
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,0.92) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,0.92)));
@@ -175,6 +175,10 @@ h5 a:hover {
 @media only screen and (max-width: 979px) {
   .sf-menu li {
     padding-right: 0;
+  }
+
+  #header h1 {
+    background-size: 51px 55px !important;
   }
 }
 /* First level sub-menu styles
@@ -476,7 +480,7 @@ p {
     margin-left: 29px;
   }
   .index .block-2 {
-    padding: 50px 0 50px !important;
+    padding: 22px 0 30px !important;
   }
 }
 .index .block-2 {
@@ -562,6 +566,9 @@ p {
   }
   .index .block-5 article {
     margin-bottom: 60px;
+  }
+  .index .block-2 h2 {
+    margin-bottom: 15px !important;
   }
 }
 .index-1 .block-1 {
