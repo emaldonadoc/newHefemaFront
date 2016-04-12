@@ -451,7 +451,7 @@ p {
     display: none;
   }
   h3 {
-    font: 25px/32px 'Marvel', sans-serif;
+    font: 21px/32px 'Marvel', sans-serif;
     text-align: center;
   }
   h4 {
@@ -476,7 +476,7 @@ p {
     margin-left: 29px;
   }
   .index .block-2 {
-    padding: 50px 0 50px !important;
+    padding: 24px 0 24px !important;
   }
 }
 .index .block-2 {
@@ -484,7 +484,7 @@ p {
   text-align: center;
 }
 .index .block-2 h2 {
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 .index .block-2 h4 {
   margin-bottom: 25px;
@@ -776,6 +776,9 @@ p {
 #footer a {
   color: inherit;
 }
+#footer h2 {
+  margin: 0px !important;
+}
 #footer a:hover {
   text-decoration: underline;
 }
@@ -812,16 +815,15 @@ p {
 }
 @media only screen and (max-width: 767px) {
   #footer .copyright .btn {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     line-height: 80px;
     margin: 30px 25px;
   }
 }
 @media only screen and (max-width: 479px) {
-  #footer .copyright .btn {
-    display: block;
-    margin: 20px auto;
+  #footer .fa {
+    font-size: xx-large !important;
   }
   .fixName{
     display: none !important;
